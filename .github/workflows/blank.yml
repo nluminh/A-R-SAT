@@ -1,8 +1,3 @@
-## Sơ đồ phân tích dữ liệu OJS
-
-```mermaid
-flowchart TB
-
 flowchart TB
   %% =========================
   %% A-R-SAT: OJS Analysis Map
@@ -94,5 +89,3 @@ flowchart TB
   AI0 --> AI4["Phân tích AI"]:::ai
   AI4 --> AI4a["Frequencies (%) cho từng lựa chọn 0/1"]:::ai
   AI4 --> AI4b["Liên hệ: R_AU với Benefit/Risk (Spearman/Descriptives)"]:::ai
-
-```
